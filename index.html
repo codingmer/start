@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <title>심리사이트</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gugi&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/qna.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+  </head>
+  <body>
+    <section id="main" class="mx-auto my-5 py-5 px-3">
+      <h1>십이간지로 알아본느 연애유형</h1>
+
+      <div class="col-12 col-sm-10 col-md-8 col-lg-6 mx-auto">
+        <img src="img/main.png" alt="" class="img-fluid" />
+      </div>
+      <p>
+        나만의 mbti 사이트입니다! <br />
+        아래 시작하기 버튼을 눌러 시작해 주십시오
+      </p>
+      <button
+        onclick=" begin();"
+        type="button"
+        class="btn btn-outline-danger mt-3"
+      >
+        시작하기
+      </button>
+    </section>
+    <section id="qna">
+      <div class="status mx-auto mt-5">
+        <div class="statusBar"></div>
+      </div>
+      <div class="qBox my-5 py-3 mx-auto">테스트 질문</div>
+      <div class="answerBox"></div>
+    </section>
+    <section id="result"></section>
+    <script src="js/data.js"></script>
+    <script src="js/start.js"></script>
+  </body>
+</html>
